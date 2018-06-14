@@ -1,0 +1,3 @@
+moodledata/*
+pgsql-data/*
+phpdocker/nginx/log/*
