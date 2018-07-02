@@ -10,7 +10,7 @@ services:
       working_dir: /application
       volumes:
         - .:/application
-        - ./pgsql-data:/var/lib/postgresql/data
+        - docker-moodle-datas:/var/lib/postgresql/data
       environment:
         - POSTGRES_DB=docker_moodle
         - POSTGRES_USER=dbuser
